@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .pedido {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .botao {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #ff4081;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .botao:hover {
+            background-color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="pedido">
+        <h1>Quero te fazer uma pergunta!</h1>
+        <p>Você aceita namorar comigo?</p>
+        <button class="botao" onclick="naoFuja()">Não fuja!</button>
+    </div>
+
+    <script>
+        function naoFuja() {
+            alert("Que bom que você não fugiu! ❤️");
+        }
+    </script>
+</body>
+</html>
